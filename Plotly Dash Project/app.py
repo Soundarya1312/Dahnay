@@ -12,7 +12,7 @@ app = Dash(
     ],
     use_pages=True  # Using use_pages=True to enable page routing
 )
-
+server= app.server
 with open("C:/Users/DLPLCORPLAP-0187/Desktop/assets/dahnay_new_logo-removebg-preview (1).png", "rb") as image_file:
     base64_logo = base64.b64encode(image_file.read()).decode("utf-8")
 
